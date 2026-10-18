@@ -25,3 +25,7 @@
 # EmotiBit workflow specific
 stage-release/
 **/*.zip
+# Local secrets (WiFi credentials) — never commit
+**/arduino_secrets.h
+**/config.txt
+!EmotiBit_stock_firmware/config.txt
